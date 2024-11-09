@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "884852658015",
+    "firebase_url": "https://sign-up-93705-default-rtdb.firebaseio.com",
+    "project_id": "sign-up-93705",
+    "storage_bucket": "sign-up-93705.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:884852658015:android:b364ad78425e4943abf0ea",
+        "android_client_info": {
+          "package_name": "com.example.helloworld"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDpOlKN_M_EPeTcr7KLyb6sq4-DgE3d_yE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
