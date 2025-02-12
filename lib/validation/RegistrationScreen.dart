@@ -20,7 +20,7 @@ class _LoginPageState extends State<Register> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
+      appBar: AppBar(centerTitle: true,
         title: Text("Register page "),
       ),
       body: Center(
@@ -37,7 +37,7 @@ class _LoginPageState extends State<Register> {
                   )),
             ),
             SizedBox(
-              height: 20,
+              height: 10,
             ),
             Padding(
               padding: const EdgeInsets.all(20.0),

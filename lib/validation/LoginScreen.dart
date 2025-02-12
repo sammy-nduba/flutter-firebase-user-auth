@@ -21,12 +21,12 @@ class _LoginPageState extends State<LoginPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: Text("Login page "),
+      appBar: AppBar( centerTitle: true,
+        title: Text("Login page"),
       ),
-      body: Center(
-        child: Column(
-          children: [
+      body: Center(child: Column(
+        mainAxisAlignment: MainAxisAlignment.center,
+        children: [
             Padding(
               padding: const EdgeInsets.all(20.0),
               child: TextField(
@@ -37,7 +37,7 @@ class _LoginPageState extends State<LoginPage> {
                   )),
             ),
             SizedBox(
-              height: 20,
+              height: 10,
             ),
             Padding(
               padding: const EdgeInsets.all(20),

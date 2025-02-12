@@ -4,6 +4,8 @@ import 'package:flutter/material.dart';
 import 'package:helloworld/service/AuthGate.dart';
 import 'package:provider/provider.dart';
 import 'firebase_options.dart';
+
+
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
 
@@ -12,6 +14,7 @@ void main() async {
 }
 
 class MyApp extends StatelessWidget {
+
   const MyApp({super.key});
   @override
   Widget build(BuildContext context) {
